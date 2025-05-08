@@ -1,48 +1,42 @@
-# Phonetic Mapping for KosmoLingua Core Emojis
+# Таблица Кузнецова (KosmoLingua Core)
 
-Этот документ описывает фонетическую систему (CVC/CV) для первых 30 эмодзи «Таблицы Кузнецова», включая транскрипцию в IPA и краткие артикуляторные заметки.
+Первая выборка: 30 эмодзи с полной информацией.
 
-| Emoji | Syllable | IPA    | Articulation Notes                                         |
-| ----- | -------- | ------ | ---------------------------------------------------------- |
-| 👤    | ka       | \[ka]  | \[k] voiceless velar plosive + \[a] open front unrounded   |
-| 🏠    | mo       | \[mo]  | \[m] bilabial nasal + \[o] mid back rounded                |
-| 🏃    | lu       | \[lu]  | \[l] alveolar lateral + \[u] close back rounded            |
-| ✍️    | se       | \[se]  | \[s] voiceless alveolar fricative + \[e] close-mid front   |
-| 🎨    | na       | \[na]  | \[n] alveolar nasal + \[a] open front                      |
-| 🔥    | pa       | \[pa]  | \[p] voiceless bilabial plosive + \[a] open front          |
-| ⏱️    | ti       | \[ti]  | \[t] voiceless alveolar plosive + \[i] close front         |
-| 💨    | bi       | \[bi]  | \[b] voiced bilabial plosive + \[i] close front            |
-| 📦    | du       | \[du]  | \[d] voiced alveolar plosive + \[u] close back rounded     |
-| ❤️    | lo       | \[lo]  | \[l] alveolar lateral + \[o] mid back rounded              |
-| ❄️    | fa       | \[fa]  | \[f] voiceless labiodental fricative + \[a] open front     |
-| ⭐️    | ra       | \[ra]  | \[r] alveolar trill/approx. + \[a] open front              |
-| 🚫    | ne       | \[ne]  | \[n] alveolar nasal + \[e] close-mid front                 |
-| ❓     | qi       | \[qi]  | \[qʰ] voiceless uvular plosive + \[i] close front          |
-| 🔄    | re       | \[re]  | \[r] alveolar + \[e] close-mid front                       |
-| 🍎    | pi       | \[pi]  | \[p] + \[i]                                                |
-| 🚗    | ca       | \[ka]  | \[k] + \[a]                                                |
-| 🐶    | ga       | \[ga]  | \[g] voiced velar plosive + \[a] open front                |
-| 🧠    | ti       | \[ti]  | \[t] + \[i]                                                |
-| 🗣️   | vo       | \[vo]  | \[v] voiced labiodental fricative + \[o] mid back rounded  |
-| 🎵    | so       | \[so]  | \[s] + \[o]                                                |
-| 🌟    | lu       | \[lu]  | \[l] + \[u]                                                |
-| 🆕    | nu       | \[nu]  | \[n] + \[u]                                                |
-| 📚    | ke       | \[ke]  | \[k] + \[e]                                                |
-| 📍    | hu       | \[hu]  | \[h] voiceless glottal fricative + \[u] close back rounded |
-| ⏳     | su       | \[su]  | \[s] + \[u]                                                |
-| 🌙    | ni       | \[ni]  | \[n] + \[i]                                                |
-| ➕     | plu      | \[plu] | \[p] + \[l] + \[u]                                         |
-| 🎯    | fo       | \[fo]  | \[f] + \[o]                                                |
-| 💤    | re       | \[re]  | \[r] + \[e]                                                |
-
-*Примечание:*
-
-* Слоги подобраны по принципу простых артикуляционных сочетаний, без редких фонем.
-* Используются открытые гласные /a/, /e/, /o/ и закрытые /i/, /u/ для максимальной различимости.
-* Для модификаторов допускаются двуслоги (CV-CV), например, ➕ → \[plu].
+| Emoji | Part of Speech | Syllable | Meaning             | Example Phrase (emoji + translit + translation) |
+| ----- | -------------- | -------- | ------------------- | ----------------------------------------------- |
+| 👤    | Noun           | ka       | person              | 👤🏠 — ka mo — “chelovek idet domoy”            |
+| 🏠    | Noun           | mo       | home                | 🏠🔥 — mo pa — “teplyy dom”                     |
+| 🏃    | Verb           | lu       | run                 | 🏃💨 — lu bi — “bezhit bystro”                  |
+| ✍️    | Verb           | se       | write               | 👤✍️📄 — ka se di — “chelovek pishet dokument”  |
+| 🎨    | Adjective      | na       | creative / artistic | 👤🎨 — ka na — “tvorcheskiy chelovek”           |
+| 🔥    | Adjective      | pa       | hot / passionate    | 🍜🔥 — mi pa — “ostryy sup”                     |
+| ⏱️    | Adverb         | ti       | precisely / now     | 🏃⏱️ — lu ti — “bezhit tochno”                  |
+| 💨    | Adverb         | bi       | quickly / fast      | 🏃💨 — lu bi — “bezhit bystro”                  |
+| 📦    | Noun           | du       | object / package    | 📦🚚 — du go — “posylka v puti”                 |
+| ❤️    | Noun / Verb    | lo       | love / to love      | 👤❤️👤 — ka lo ka — “lyubit”                    |
+| ❄️    | Adjective      | fa       | cold                | 🥶❄️ — ka fa — “kholodno”                       |
+| ⭐️    | Adjective      | ra       | excellent / star    | 👏⭐️ — ka ra — “otlichno”                       |
+| 🚫    | Modifier       | ne       | negation / no       | 🚫🏃 — ne lu — “ne bezhat’”                     |
+| ❓     | Modifier       | qi       | question marker     | ❓👤🏃❓ — qi ka lu qi — “chelovek bezhit?”       |
+| 🔄    | Modifier       | re       | repeat / continuous | 🔄🏃 — re lu — “begat postoyanno”               |
+| 🍎    | Noun           | pi       | apple / food        | 👤🍎 — ka pi — “chelovek est’ yabloko”          |
+| 🚗    | Noun           | ca       | car / transport     | 👤🚗 — ka ca — “chelovek edet na mashine”       |
+| 🐶    | Noun           | ga       | dog / animal        | 👤🐶 — ka ga — “u menya est’ sobaka”            |
+| 🧠    | Verb           | ti       | think / ponder      | 👤🧠 — ka ti — “chelovek dumayet”               |
+| 🗣️   | Verb           | vo       | speak / say         | 👤🗣️ — ka vo — “chelovek govorit”              |
+| 🎵    | Verb           | so       | listen / music      | 👤🎵 — ka so — “slushat’ muzyku”                |
+| 🌟    | Adjective      | lu       | bright / star       | 🌟⭐️ — ra lu — “ochen’ krasivo”                 |
+| 🆕    | Adjective      | nu       | new / fresh         | 🎉🆕 — pa nu — “novyy prazdnik”                 |
+| 📚    | Adjective      | ke       | educational / book  | 👤📚 — ka ke — “uchenyy chelovek”               |
+| 📍    | Adverb         | hu       | here / this place   | 👤📍 — ka hu — “zdes’ chelovek”                 |
+| ⏳     | Adverb         | su       | soon / soon         | ⏳🏠 — su mo — “skoro doma”                      |
+| 🌙    | Adverb         | ni       | night / nighttime   | 🌙🛌 — ni su — “noch’yu spat’”                  |
+| ➕     | Modifier       | plu      | add / plus          | 1➕1 — ou plu ou — “odin plyus odin”             |
+| 🎯    | Modifier       | fo       | focus / target      | 🎯👤 — fo ka — “tsel’ na cheloveka”             |
+| 💤    | Modifier       | re       | rest / sleep        | 👤💤 — ka re — “chelovek spit’”                 |
 
 *Дальнейшие шаги:*
 
-* Проверить корректность IPA-транскрипций с носителями разных языков.
-* Расширить до полного ядра 200–300 эмодзи.
-* Интегрировать в TTS-движок для тестовой синтез-программы.
+* Проверить культурную универсальность значений.
+* Собрать обратную связь от пилотных групп.
+* Расширить до 200–300 эмодзи.
